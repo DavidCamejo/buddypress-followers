@@ -42,14 +42,13 @@ git clone https://github.com/DavidCamejo/buddypress-followers.git
 
 ### Estructura del proyecto
 
-```text
 buddypress-followers/
-├── assets/                  # Assets compilados (JS/CSS)
-├── includes/              # Lógica principal del plugin
-├── languages/           # Archivos de traducción
-├── templates/           # Plantillas personalizables
-├── tests/                    # Pruebas unitarias
-├── vendor/                # Dependencias de Composer
+├── assets/          # Assets compilados (JS/CSS)
+├── includes/        # Lógica principal del plugin
+├── languages/       # Archivos de traducción
+├── templates/       # Plantillas personalizables
+├── tests/           # Pruebas unitarias
+├── vendor/          # Dependencias de Composer
 ├── composer.json    # Configuración de Composer
 └── buddypress-followers.php # Archivo principal
 
