@@ -3,6 +3,7 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![PHP Version Required](https://img.shields.io/badge/PHP-%3E%3D8.0-8892BF.svg)](https://php.net/)
 [![BuddyPress Version Required](https://img.shields.io/badge/BuddyPress-%3E%3D12.0-1a85ce.svg)](https://buddypress.org/)
+
 Una versión moderna y refactorizada del plugin BuddyPress Followers, compatible con las últimas versiones de WordPress, BuddyPress y PHP.
 
 ## Características principales
@@ -25,7 +26,6 @@ Una versión moderna y refactorizada del plugin BuddyPress Followers, compatible
 
 O clona el repositorio directamente en tu carpeta de plugins:
 
-```bash
 git clone https://github.com/DavidCamejo/buddypress-followers.git
 
 ## Requisitos del sistema
