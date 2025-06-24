@@ -1,0 +1,13 @@
+{
+  "name": "buddypress-followers",
+  "version": "2.0.0",
+  "scripts": {
+    "build": "wp-scripts build assets/src/index.js --output-path=assets/js/",
+    "start": "wp-scripts start assets/src/index.js --output-path=assets/js/",
+    "pack": "composer install --no-dev && npm run build && wp i18n make-pot . languages/buddypress-followers.pot",
+    "deploy": "npm run pack && zip -r buddypress-followers.zip . -x@.zipignore"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^25.0.0"
+  }
+}
