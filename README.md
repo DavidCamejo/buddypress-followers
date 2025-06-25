@@ -42,6 +42,7 @@ git clone https://github.com/DavidCamejo/buddypress-followers.git
 
 ### Estructura del proyecto
 
+```
 buddypress-followers/
 ├── assets/          # Assets compilados (JS/CSS)
 ├── includes/        # Lógica principal del plugin
@@ -51,6 +52,7 @@ buddypress-followers/
 ├── vendor/          # Dependencias de Composer
 ├── composer.json    # Configuración de Composer
 └── buddypress-followers.php # Archivo principal
+```
 
 ### Hooks disponibles
 
